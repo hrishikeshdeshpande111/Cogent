@@ -1,5 +1,8 @@
 # Repository Guidelines
 
+## Workspace Role
+This repository is the persistent workspace for Cogent, the Codex agent that works alongside the user. Use it to keep durable notes, lightweight conventions, and project context that should survive between sessions.
+
 ## Project Structure & Module Organization
 This workspace currently contains only editor configuration under [`.vscode/`](.vscode/), including extension recommendations. There is no application source tree yet, so when code is added, keep the layout conventional and easy to scan:
 
@@ -10,7 +13,7 @@ This workspace currently contains only editor configuration under [`.vscode/`](.
 If you introduce a different structure, document it in this file.
 
 ## Build, Test, and Development Commands
-No build or test tooling is defined yet. Once the project is initialized, list the exact commands here and keep them current. Typical examples:
+No build or test tooling is defined yet. Once the project gains tooling, list the exact commands here and keep them current. Typical examples:
 
 - `npm install` - install dependencies
 - `npm run dev` - start a local development server
@@ -31,11 +34,11 @@ If you add tools such as Prettier, ESLint, or Biome, check in their config files
 No testing framework is configured yet. When tests are introduced, name them to match the unit under test, such as `auth.service.test.ts` or `user.spec.ts`. Keep test fixtures close to the test file unless the suite becomes large.
 
 ## Commit & Pull Request Guidelines
-There is no Git history available in this workspace, so no commit convention can be inferred yet. Use short, imperative commit messages such as `add login form` or `fix null check`. Pull requests should include:
+The repository history is intentionally lightweight, so use short, imperative commit messages such as `add workspace notes` or `fix null check`. Pull requests should include:
 
 - a brief summary of the change
 - the commands used to verify it
 - screenshots for UI changes, when applicable
 
 ## Agent-Specific Notes
-The only detected repository-specific guidance is the VS Code recommendation in [`.vscode/extensions.json`](.vscode/extensions.json), which suggests the `openai.chatgpt` extension. Update this guide as soon as the codebase gains real structure, tooling, or CI checks.
+The only detected repository-specific guidance is the VS Code recommendation in [`.vscode/extensions.json`](.vscode/extensions.json), which suggests the `openai.chatgpt` extension. Keep durable workspace notes in [NOTES.md](NOTES.md), and update this guide as soon as the codebase gains real structure, tooling, or CI checks.
