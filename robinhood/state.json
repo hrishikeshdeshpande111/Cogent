@@ -1,0 +1,12 @@
+{
+  "week": {
+    "isoWeekStartDate": null,
+    "entriesThisWeek": 0,
+    "exitsThisWeek": 0
+  },
+  "lastAction": {
+    "lastEntryDate": null,
+    "lastExitDate": null
+  }
+}
+

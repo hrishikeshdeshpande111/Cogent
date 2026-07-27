@@ -1,0 +1,18 @@
+{
+  "search": {
+    "query": "product",
+    "location": "United States",
+    "postedWithinHours": 24
+  },
+  "output": {
+    "dataDir": "data/jobapp-os"
+  },
+  "resume": {
+    "resumeTextPath": "data/jobapp-os/resume.txt",
+    "resumePdfPath": "Hrishikesh_resume.pdf"
+  },
+  "safety": {
+    "requireUserConfirmBeforeApply": true,
+    "linkedinAutomationMode": "manual_assist"
+  }
+}

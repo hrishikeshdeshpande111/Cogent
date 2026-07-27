@@ -1,0 +1,16 @@
+{
+  "compliance": {
+    "noDayTrading": true,
+    "noSameDayRoundTrips": true,
+    "minimumHoldTradingDaysToExit": 5,
+    "maxEntriesPerWeek": 1,
+    "maxExitsPerWeek": 1,
+    "disallowedInstruments": ["options", "futures", "leveraged_etf", "margin"]
+  },
+  "swingTrading": {
+    "targetHorizonDays": [7, 14],
+    "allowedOrderTypes": ["limit", "market_dollar_fractional_regular_hours_only"],
+    "allowedMarketHours": ["regular_hours"],
+    "maxDollarAmountPerEntry": "50.00"
+  }
+}

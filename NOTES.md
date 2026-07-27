@@ -13,6 +13,13 @@ This repository is the shared workspace for the Cogent Codex agent and the user.
 - Prefer small, reviewable commits for workspace notes and setup changes.
 
 ## Working Notes
-- The repo currently contains only the workspace guidance files and the VS Code recommendation.
-- No application source tree or build/test tooling has been added yet.
+- This repo contains workspace guidance plus two working subprojects: `jobapp-os/` and `robinhood/`.
+- `jobapp-os/` has Node/TypeScript tooling (`jobapp-os/package.json`) and a local-first CLI workflow.
 
+## Robinhood (MCP)
+- A Robinhood **agentic-allowed cash** brokerage account is connected for MCP actions (account `••••9997`).
+- Objective: **swing trade** (multi-day holds) to target steady returns, with **strict NO day trading** constraints (see `robinhood/robinhood.md`).
+
+## jobapp-os
+- Objective: job search + application workflow OS (search, queue, notes, semi-automated ATS filling with user submit).
+- Primary docs: `jobapp-os/USER_GUIDE.md`

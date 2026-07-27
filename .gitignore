@@ -1,0 +1,18 @@
+# Dependencies / build output
+node_modules/
+dist/
+
+# jobapp-os local data (keep templates but not personal content)
+jobapp-os/node_modules/
+jobapp-os/dist/
+jobapp-os/data/jobapp-os/leads/
+jobapp-os/data/jobapp-os/leads.json
+jobapp-os/data/jobapp-os/resume.txt
+jobapp-os/data/jobapp-os/resume-extract.json
+jobapp-os/data/jobapp-os/pipeline.json
+jobapp-os/data/jobapp-os/metrics.json
+jobapp-os/data/jobapp-os/bullets.json
+
+# Personal documents
+jobapp-os/Hrishikesh_resume.pdf
+
